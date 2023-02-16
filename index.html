@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Creation of simple layout</title>
+
+    <style>
+        .container,.header,.nav,.middle,.left,.right,.footer{
+            border: 3px solid red;
+            padding: 20px;
+        }
+        .middle{
+            height: 300px;
+        }
+        .left{
+            float: left;
+            width: 200px
+        }
+        .right{
+            float: right;
+            width: 200px
+            }
+        .footer{
+            text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <main id="test" class="container">
+
+        <header class="header">Header
+        <br>
+        <h1 style="text-align: center;">Welcome to our website</h1>
+        </header>
+
+        <nav class="nav" id="nav">Navigation
+        <br>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact us</a>
+        </nav>
+
+        <section id="middle" class="middle">Middle
+        <br>
+        <aside class="left">Left
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo facere assumenda eius ad et soluta autem quos aspernatur ullam ipsam. Qui molestiae accusantium impedit. Quaerat delectus veniam officia cupiditate possimus.</p>
+        </aside>
+        <aside class="right">Right
+        <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo facere assumenda eius ad et soluta autem quos aspernatur ullam ipsam. Qui molestiae accusantium impedit. Quaerat delectus veniam officia cupiditate possimus.</p>
+        </aside>
+    </section>
+    <br>
+    <footer class="footer">Footer
+        <h5>&copy;Copyright reserved 2023</h5>
+    </footer>
+</body>
+</html>
